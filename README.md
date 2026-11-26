@@ -4,7 +4,7 @@ Custom STM32F401-based flight data acquisition (DAQ) board designed in **KiCad 1
 
 ## Schematic Preview
 
-<img width="3508" height="2480" alt="image" src="https://github.com/user-attachments/assets/3a3487a3-e9a5-4518-9f5e-45405c3a60f2" />
+<img width="3508" height="2480" alt="Telemachus DAQ Schematic" src="docs/schematic.png" />
 
 
 ## Hardware Overview
@@ -28,7 +28,7 @@ Custom STM32F401-based flight data acquisition (DAQ) board designed in **KiCad 1
 | :--- | :--- | :--- | :--- |
 | **v0.1** | Initial block architecture and sensor selection | Done | 2026-11-15 |
 | **v0.2** | Core MCU (`U1`) and bare sensor IC (`U2`–`U5`) schematic wiring, decoupling capacitors, and I2C address strapping | Done | 2026-11-19 |
-| **v0.3** | Power supply regulation (`+3V3`), 4-pin SWD programming header, status LEDs, and onboard SPI flash logging | In Progress | — |
+| **v0.3** | Power supply regulation (`+3V3`), 4-pin SWD programming header, status LEDs, and onboard SPI flash logging | Done | 2026-11-25 |
 | **v0.4** | PCB component placement, routing, and Design Rule Check (DRC) | Planned | — |
 | **v1.0 (Rev A)** | PCB fabrication, assembly, and flight bring-up | Planned | — |
 
